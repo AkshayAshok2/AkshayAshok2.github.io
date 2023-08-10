@@ -19,10 +19,21 @@ import {
     starbucks,
     tesla,
     shopify,
+    uf,
+    ipg,
+    uhg,
     carrent,
     jobit,
     tripguide,
     threejs,
+    angular,
+    python,
+    pytorch,
+    java,
+    cpp,
+    cs,
+    dotnet,
+    sqlserver,
   } from "../assets";
   
   export const navLinks = [
@@ -61,12 +72,32 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "PyTorch",
+      icon: pytorch,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "C#",
+      icon: cs,
+    },
+    {
+      name: ".NET",
+      icon: dotnet,
+    },
+    {
+      name: "SQL Server",
+      icon: sqlserver
+    },
+    {
+      name: "Java",
+      icon: java,
     },
     {
       name: "JavaScript",
@@ -77,50 +108,34 @@ import {
       icon: typescript,
     },
     {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "Angular",
+      icon: angular,
+    },
+    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Undergraduate Researcher",
+      company_name: "University of Florida - Computational Reasoning Group",
+      icon: uf,
+      iconBg: "#F3F3F3",
+      date: "Jan 2022 - Nov 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +144,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "IT Security Intern",
+      company_name: "Intertape Polymer Group",
+      icon: ipg,
+      iconBg: "#F3F3F3",
+      date: "May 2022 - Aug 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +157,24 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      title: "Machine Learning Researcher",
+      company_name: "University of Florida - Smart Medical Informatics Learning & Evaluation Lab",
+      icon: uf,
+      iconBg: "#F3F3F3",
       date: "Jan 2023 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "UnitedHealth Group",
+      icon: uhg,
+      iconBg: "#E6DEDD",
+      date: "Jun 2023 - Aug 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
