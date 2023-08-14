@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex flex-col flex-grow">
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Akshay</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I do blah blah blah and this and this and <br className="sm:block hidden" /> this as well as that and the other thing!
+            Welcome to my portfolio website! {/*<br className="sm:block hidden" /> */}
           </p>
         </div>
 
