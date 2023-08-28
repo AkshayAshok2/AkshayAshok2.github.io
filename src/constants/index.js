@@ -22,6 +22,7 @@ import {
     uf,
     ipg,
     uhg,
+    isa,
     carrent,
     jobit,
     tripguide,
@@ -53,7 +54,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full-Stack Developer",
       icon: web,
     },
     {
@@ -61,11 +62,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Computer Science & Math Student",
       icon: backend,
     },
     {
-      title: "Student Leader",
+      title: "Student Organization Leader",
       icon: creator,
     },
   ];
@@ -137,10 +138,9 @@ import {
       iconBg: "#F3F3F3",
       date: "Jan 2022 - Nov 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Optimized learning in a programming course by investigating student characteristics and behaviors.",
+        "Developed a statistical model in Python using Pandas, NumPy, Matplotlib, and Seaborn that established a correlation between students' procrastination & their performance in the course (p = 0.0035).",
+        "Published results and presented at Koli Calling 2022, an international computing education conference.",
       ],
     },
     {
@@ -150,23 +150,21 @@ import {
       iconBg: "#F3F3F3",
       date: "May 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Managed employees’ cyber safety practices to ensure implementation of cybersecurity standards.",
+        "Documented the company’s IT network infrastructure to more efficiently plan for cybersecurity threats.",
+        "Constructed application network diagrams using Microsoft Visio.",
       ],
     },
     {
-      title: "Machine Learning Researcher",
-      company_name: "University of Florida - Smart Medical Informatics Learning & Evaluation Lab",
-      icon: uf,
+      title: "Director, Freshman Leadership Experience",
+      company_name: "University of Florida - Indian Students Association",
+      icon: isa,
       iconBg: "#F3F3F3",
-      date: "Jan 2023 - Present",
+      date: "June 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Helped a cohort of over 150 first-year college students across academic disciplines navigate university life & become student leaders.",
+        "Planned and hosted a variety of informative meetings, socials, and profesisonal networking events over the year.",
+        "Drove a 50% increase in membership and engagement from the previous year.",
       ],
     },
     {
@@ -176,10 +174,34 @@ import {
       iconBg: "#E6DEDD",
       date: "Jun 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained a custom identity and access management product that services 400,000+ employees.",
+        "Built backend and database infrastructure to support data flow for new AI feature, streamlining access review process by 50%.",
+        "Built and unit/regression tested features for .NET web APIs and console apps using C#, TypeScript, SQL Server, and Postman.",
+        "Communicated ideas & suggestions in scrum ceremonies including sprint planning, daily stand-ups, and sprint review."
+      ],
+    },
+    {
+      title: "External Vice President",
+      company_name: "University of Florida - Indian Students Association",
+      icon: isa,
+      iconBg: "#F3F3F3",
+      date: "May 2023 - Present",
+      points: [
+        "Managed one of the largest student-run organizations at the University of Florida (over 400 members).",
+        "Handled external relations, cultural programs, and event planning (over 1000 attendees).",
+      ],
+    },
+    {
+      title: "Machine Learning Researcher",
+      company_name: "University of Florida - Smart Medical Informatics Learning & Evaluation Lab",
+      icon: uf,
+      iconBg: "#F3F3F3",
+      date: "Jan 2023 - Present",
+      points: [
+        "Founded a project to improve deep learning models’ accuracy in Parkinson’s prediction with generative AI data augmentation.",
+        "Achieved over 70% base accuracy in Parkinson’s disease prediction from retinal scans with machine learning classifiers.",
+        "Distributed training and testing of models in PyTorch using the HiPerGator supercomputer at UF.",
+        "Wrote research proposals and supplements to secure over $2,000 in funding for the lab."
       ],
     },
   ];

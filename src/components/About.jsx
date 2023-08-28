@@ -42,18 +42,18 @@ const About = () => {
         </h2>
       </motion.div>
 
-      <motion.p 
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I'm a third-year undergraduate student studying computer science at the University of Florida.
-      </motion.p>
-
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-5 mb-9 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}
       </div>
+
+      <motion.p 
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] leading-[30px]"
+      >
+        I'm a third-year undergraduate student studying computer science at the University of Florida. I was introduced to programming and computer science in high school via an online data science bootcamp, and I quickly grew to love problem-solving with code and data. When I graduated, I decided to follow this interest in college. I am currently pursuing a Bachelor of Science in Computer Science at the UF College of Engineering, along with a minor in Mathematics and a Certificate in AI Fundamentals.<br></br><br></br>I spend my free time learning about generative AI in medical imaging, computer vision & image processing, and app development. This website is a medium to showcase my skills and passion for CS! I hope you enjoy your stay, and I always appreciate feedback. Thank you!
+      </motion.p>
     </>
   )
 }

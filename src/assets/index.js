@@ -36,6 +36,7 @@ import tesla from "./company/tesla.png";
 import uf from "./company/uf.png";
 import ipg from "./company/ipg.png";
 import uhg from "./company/uhg.png";
+import isa from "./company/isa.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -78,6 +79,7 @@ export {
   uf,
   ipg,
   uhg,
+  isa,
   carrent,
   jobit,
   tripguide,
