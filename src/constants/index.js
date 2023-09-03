@@ -15,18 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     uf,
     ipg,
     uhg,
     isa,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     angular,
     python,
     pytorch,
@@ -35,6 +27,13 @@ import {
     cs,
     dotnet,
     sqlserver,
+    familyguy,
+    propertyprobe,
+    trainOfFour,
+    cachesim,
+    minesweeper,
+    portfolioWebsite,
+    mlcv
   } from "../assets";
   
   export const navLinks = [
@@ -44,7 +43,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
     },
     {
       id: "contact",
@@ -206,97 +205,138 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Lightweight Optimized Integrated Search",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "LOIS: the Family Guy Search Engine! Look for your favorite episodes based on dialogue and characters in that episode.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "flask",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        }
+      ],
+      image: familyguy,
+      source_code_link: "https://github.com/AkshayAshok2/family-guy-search-engine",
+    },
+    {
+      name: "PropertyProbe",
+      description:
+        "Web application that allows prospective real estate investors to quickly and easily find pre-foreclosure properties and relevant information.",
+      tags: [
+        {
+          name: "angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "pink-text-gradient",
         },
+        {
+          name: "go",
+          color: "blue-text-gradient",
+        }
       ],
-      image: tripguide,
+      image: propertyprobe,
+      source_code_link: "https://github.com/AkshayAshok2/property-probe",
+    },
+    {
+      name: "Train of Four",
+      description:
+        "App that uses computer vision to aid in dosing of anesthesia in pre-procedure patients by analyzing muscle reactivity.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "opencv",
+          color: "green-text-gradient",
+        },
+      ],
+      image: trainOfFour,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Cache Simulator",
+      description:
+        "Emulates a memory cache using both the \"first-in, first-out\" and \"least recently used\" principles.",
+      tags: [
+        {
+          name: "c++",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: cachesim,
+      source_code_link: "https://github.com/AkshayAshok2/cache-simulator",
+    },
+    {
+      name: "Minesweeper",
+      description:
+        "Recreated the timeless classic game in C++.",
+      tags: [
+        {
+          name: "c++",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: minesweeper,
+      source_code_link: "https://github.com/AkshayAshok2/minesweeper",
+    },
+    {
+      name: "Machine Learning",
+      description:
+        "Smaller projects and bits of code to learn about and practice new technologies in the realm of AI, machine learning, and computer vision!",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "pytorch",
+          color: "green-text-gradient",
+        },
+      ],
+      image: mlcv,
+      source_code_link: "https://github.com/AkshayAshok2/ml-cv-practice",
+    },
+    {
+      name: "Portfolio Website",
+      description:
+        "Where you are now!",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "green-text-gradient",
+        },
+      ],
+      image: portfolioWebsite,
+      source_code_link: "https://github.com/AkshayAshok2/AkshayAshok2.github.io",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

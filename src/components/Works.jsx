@@ -21,11 +21,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div onClick={() => window.open(source_code_link, "_blank")}
+            <div 
+              onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
               <img
                 src={github}
-                alt="github"
+                alt="source code"
                 className="w-5/6 h-5/6 object-contain"
               />
             </div>
@@ -61,13 +62,7 @@ const Works = () => {
         </h2>
       </motion.div>
 
-      <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0.1, 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          The following projects showcase my skills and experience through real-world examples of my work...
-        </motion.p>
-      </div>
-
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-6">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

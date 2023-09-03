@@ -36,11 +36,15 @@ import tesla from "./company/tesla.png";
 import uf from "./company/uf.png";
 import ipg from "./company/ipg.png";
 import uhg from "./company/uhg.png";
-import isa from "./company/isa.png"
+import isa from "./company/isa.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import familyguy from "./familyguy.png";
+import cachesim from "./cachesim.png";
+import minesweeper from "./minesweeper.png";
+import portfolioWebsite from "./portfoliosite.png";
+import propertyprobe from "./propertyprobe.png";
+import trainOfFour from "./tof.png";
+import mlcv from "./mlcv.png";
 
 export {
   logo,
@@ -80,7 +84,11 @@ export {
   ipg,
   uhg,
   isa,
-  carrent,
-  jobit,
-  tripguide,
+  familyguy,
+  cachesim,
+  minesweeper,
+  propertyprobe,
+  trainOfFour,
+  portfolioWebsite,
+  mlcv
 };
